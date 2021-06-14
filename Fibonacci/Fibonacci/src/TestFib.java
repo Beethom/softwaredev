@@ -51,11 +51,11 @@ public class TestFib {
             end   = System.nanoTime();
             totalOftime = end - start;
 
-            //Call recursive method and print out the results
+            //Call the recursive method and print out the results
             System.out.println(fib[i]+" the number using recusion method is "+Fibrec+" and the time to finish is "+ totalOftime);
-            System.out.println();//space for readability
+            System.out.println();
 
-            //Call the iterative method with new startTime, etc and print out the results
+            //Call the iterative method
             start = System.nanoTime();
             fibIt = FibIt(fib[i]);
             end   = System.nanoTime();
