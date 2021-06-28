@@ -44,8 +44,11 @@ public class textcount{
             }
 
         } );
-            for (Map.Entry<String, Integer > entry: wordSorted)
-            System.out.println(entry);
+        Map<String, Integer> hm1 = sortByValue(wordCountPairs);
+        // Loop through 20 times and print the Top 20 Words - outputting the word and its count
+        for(int i =1; i < 21; i++){
+            System.out.println("" + i + " - " + hm1.entrySet().toArray()[hm1.size()-i] );
+        }
 
 
         }
