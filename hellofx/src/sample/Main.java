@@ -45,7 +45,7 @@ public class Main extends Application {
 
 //Declare collection for returning pair of words and numbers, the collection name is words
         HashMap <String, Integer>words = new HashMap<String, Integer>();
-        String fileName = "src\\poem.txt";
+        String fileName = "C:\Users\vante\OneDrive\Desktop\New folder\softwaredev\hellofx\src\poem.txt";
         File textFile = new File(fileName);
         Scanner in = new Scanner(textFile);
         // File in2 = new File("src\\poem.txt");
